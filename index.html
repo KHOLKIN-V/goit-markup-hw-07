@@ -24,7 +24,7 @@
             <form class="modal-form">
                 <h4>Оставьте свои данные, мы вам перезвоним</h4>
                 <label class="form-label">
-                    <p>Имя</p>
+                    <span class="modal-label__title">Имя</span>
                     <span class="form-input-wrap">
                         <input type="text" name="username" placeholder=" ">
                         <svg class="form-input-svg">
@@ -33,7 +33,7 @@
                     </span>
                 </label>
                 <label class="form-label">
-                    <p>Телефон</p>
+                    <span class="modal-label__title">Телефон</span>
                     <span class="form-input-wrap">
                         <input type="tel" name="phone" placeholder=" ">
                         <svg class="form-input-svg">
@@ -42,7 +42,7 @@
                     </span>
                 </label>
                 <label class="form-label">
-                    <p>Почта</p>
+                    <span class="modal-label__title">Почта</span>
                     <span class="form-input-wrap">
                         <input type="email" name="email" placeholder=" ">
                         <svg class="form-input-svg">
@@ -52,7 +52,7 @@
 
                 </label>
                 <label class="form-label">
-                  <p>Комментарий</p>
+                  <span class="modal-label__title">Комментарий</span>
                   <textarea name="feedback" placeholder="Введите текст"></textarea>
                 </label>
                 
@@ -66,7 +66,7 @@
                         required
                     />
                     <label class="label-agreement" for="checkbox-agreement">
-                        Соглашаюсь с рассылкой и принимаю <a href="#">Условия договора</a>
+                        Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#">Условия договора</a>
                     </label>
                 </div>
 
@@ -403,8 +403,8 @@
             </div>
             <form class="footer-form">
                     <label class="footer-form__label">
-                        <p>ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-                        <input type="mail" name="e-mail" placeholder="E-mail">
+                        <span class="footer-form__title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</span>
+                        <input type="email" name="e-mail" placeholder="E-mail">
                     </label>
                     <button class="footer-form__submit" type="submit">
                         Подписаться

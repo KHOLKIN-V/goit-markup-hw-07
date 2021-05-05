@@ -89,7 +89,7 @@
   line-height: 1.17;
   letter-spacing: 0.01em;
 
-  p {
+  .modal-label__title {
     margin: 0;
     margin-bottom: 4px;
   }
@@ -170,6 +170,10 @@
     margin-right: 7px;
     margin-left: 12px;
     border-radius: 2px;
+  }
+
+  a {
+    color: $accent-color;
   }
 }
 
