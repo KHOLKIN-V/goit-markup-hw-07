@@ -192,8 +192,7 @@ body {
   transition: border-color 250ms var(--timing-function);
   cursor: pointer;
 }
-.modal-checkbox {
-}
+
 .visually-hidden {
   position: absolute;
   clip: rect(1px 1px 1px 1px);

@@ -9,6 +9,8 @@
   text-decoration: none;
 
   &-footer {
+    display: block;
+    margin-bottom: 20px;
     color: $primary-white-color;
     background-color: $title-bcg-color;
   }
