@@ -361,14 +361,6 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navig-address__item .address-link:hover .address-mail {
-  fill: #2196f3;
-}
-
-.navig-address__item .address-link:hover .address-phone {
-  fill: #2196f3;
-}
-
 .navig-address__item:hover .address-link,
 .navig-address__item:focus .address-link {
   color: #2196f3;
@@ -379,6 +371,7 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navig-address__item .address-phone {
@@ -386,6 +379,15 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navig-address__item:hover .address-mail {
+  fill: #2196f3;
+}
+
+.navig-address__item:hover .address-phone {
+  fill: #2196f3;
 }
 
 .hero-container {

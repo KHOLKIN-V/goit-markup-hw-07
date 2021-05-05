@@ -82,7 +82,7 @@
   &:not(:last-child) {
     margin-right: 50px;
   }
-  & .address-link {
+  .address-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,28 +94,29 @@
     background-color: $primary-white-color;
     text-decoration: none;
     transition: color 250ms $timing-function;
-
-    &:hover .address-mail {
-      fill: $accent-color;
-    }
-    &:hover .address-phone {
-      fill: $accent-color;
-    }
   }
   &:hover .address-link,
   &:focus .address-link {
     color: $accent-color;
   }
-  & .address-mail {
+  .address-mail {
     fill: $primary-text-color;
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    transition: fill 250ms $timing-function;
   }
-  & .address-phone {
+  .address-phone {
     fill: $primary-text-color;
     width: 10px;
     height: 16px;
     margin-right: 10px;
+    transition: fill 250ms $timing-function;
+  }
+  &:hover .address-mail {
+    fill: $accent-color;
+  }
+  &:hover .address-phone {
+    fill: $accent-color;
   }
 }
