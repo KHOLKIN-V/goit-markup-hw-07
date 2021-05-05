@@ -51,7 +51,7 @@ body {
   background-color: #ffffff;
 }
 
-.modal-form .modal-submit {
+.modal-form__submit {
   display: inline-flex;
   margin: 0 auto;
   width: 200px;
@@ -64,6 +64,26 @@ body {
   color: #ffffff;
   font-size: inherit;
   cursor: pointer;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.logo span {
+  color: #2196f3;
 }
 
 /* MODAL */
@@ -101,7 +121,7 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close {
+.modal-form__close {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -112,6 +132,7 @@ body {
   border-radius: 50%;
   background-color: #ffffff;
   cursor: pointer;
+  outline: none;
 }
 
 .form-close-svg {
@@ -122,8 +143,8 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-close:hover .form-close-svg,
-.modal-close:focus .form-close-svg {
+.modal-form__close:hover .form-close-svg,
+.modal-form__close:focus .form-close-svg {
   fill: #2196f3;
 }
 
@@ -209,17 +230,6 @@ body {
   cursor: pointer;
 }
 
-.visually-hidden {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
 .label-agreement {
   display: flex;
   align-items: center;
@@ -295,26 +305,6 @@ body {
 }
 
 /* Logo */
-.logo {
-  font-family: Raleway, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  text-decoration: none;
-}
-
-.logo-footer {
-  color: #ffffff;
-  background-color: #2f303a;
-}
-
-.logo span {
-  color: #2196f3;
-}
-
 /* navigation */
 .navig .logo {
   margin-right: 93px;
