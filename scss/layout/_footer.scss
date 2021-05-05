@@ -150,17 +150,7 @@
     }
   }
 }
-.footer-form__title {
-  margin: 0;
-  margin-bottom: 20px;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: $primary-white-color;
-}
 .footer-form__submit {
   position: absolute;
   bottom: 0;
@@ -187,4 +177,15 @@
     height: 24px;
     margin-left: 10px;
   }
+}
+
+.footer-form__title {
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $primary-white-color;
 }
